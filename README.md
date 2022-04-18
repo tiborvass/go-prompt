@@ -1,9 +1,9 @@
 # go-prompt
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gregoo/go-prompt)](https://goreportcard.com/report/github.com/gregoo/go-prompt)
 ![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
-[![GoDoc](https://godoc.org/github.com/c-bata/go-prompt?status.svg)](https://godoc.org/github.com/c-bata/go-prompt) 
-![tests](https://github.com/c-bata/go-prompt/workflows/tests/badge.svg)
+[![GoDoc](https://godoc.org/github.com/gregoo/go-prompt?status.svg)](https://godoc.org/github.com/gregoo/go-prompt) 
+![tests](https://github.com/gregoo/go-prompt/workflows/tests/badge.svg)
 
 A library for building powerful interactive prompts inspired by [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit),
 making it easier to build cross-platform command line tools using Go.
@@ -13,7 +13,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/c-bata/go-prompt"
+	"github.com/gregoo/go-prompt"
 )
 
 func completer(d prompt.Document) []prompt.Suggest {
@@ -59,22 +59,22 @@ func main() {
 
 ### Powerful auto-completion
 
-[![demo](https://github.com/c-bata/assets/raw/master/go-prompt/kube-prompt.gif)](https://github.com/c-bata/kube-prompt)
+[![demo](https://github.com/gregoo/assets/raw/master/go-prompt/kube-prompt.gif)](https://github.com/c-bata/kube-prompt)
 
 (This is a GIF animation of kube-prompt.)
 
 ### Flexible options
 
-go-prompt provides many options. Please check [option section of GoDoc](https://godoc.org/github.com/c-bata/go-prompt#Option) for more details.
+go-prompt provides many options. Please check [option section of GoDoc](https://godoc.org/github.com/gregoo/go-prompt#Option) for more details.
 
-[![options](https://github.com/c-bata/assets/raw/master/go-prompt/prompt-options.png)](#flexible-options)
+[![options](https://github.com/gregoo/assets/raw/master/go-prompt/prompt-options.png)](#flexible-options)
 
 ### Keyboard Shortcuts
 
 Emacs-like keyboard shortcuts are available by default (these also are the default shortcuts in Bash shell).
 You can customize and expand these shortcuts.
 
-[![keyboard shortcuts](https://github.com/c-bata/assets/raw/master/go-prompt/keyboard-shortcuts.gif)](#keyboard-shortcuts)
+[![keyboard shortcuts](https://github.com/gregoo/assets/raw/master/go-prompt/keyboard-shortcuts.gif)](#keyboard-shortcuts)
 
 Key Binding          | Description
 ---------------------|---------------------------------------------------------
@@ -95,7 +95,7 @@ Key Binding          | Description
 
 You can use <kbd>Up arrow</kbd> and <kbd>Down arrow</kbd> to walk through the history of commands executed.
 
-[![History](https://github.com/c-bata/assets/raw/master/go-prompt/history.gif)](#history)
+[![History](https://github.com/gregoo/assets/raw/master/go-prompt/history.gif)](#history)
 
 ### Multiple platform support
 
@@ -109,8 +109,8 @@ We have confirmed go-prompt works fine in the following terminals:
 ## Links
 
 * [Change Log](./CHANGELOG.md)
-* [GoDoc](http://godoc.org/github.com/c-bata/go-prompt)
-* [gocover.io](https://gocover.io/github.com/c-bata/go-prompt)
+* [GoDoc](http://godoc.org/github.com/gregoo/go-prompt)
+* [gocover.io](https://gocover.io/github.com/gregoo/go-prompt)
 
 ## Author
 
