@@ -214,7 +214,7 @@ func (w *VT100Writer) SetColor(fg, bg Color, bold bool) {
 		w.SetDisplayAttributes(fg, bg, DisplayBold)
 	} else {
 		// If using `DisplayDefualt`, it will be broken in some environment.
-		// Details are https://github.com/gregoo/go-prompt/pull/85
+		// Details are https://github.com/tiborvass/go-prompt/pull/85
 		w.SetDisplayAttributes(fg, bg, DisplayReset)
 	}
 }

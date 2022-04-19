@@ -1,4 +1,4 @@
-module github.com/gregoo/go-prompt
+module github.com/tiborvass/go-prompt
 
 go 1.14
 

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/gregoo/go-prompt/internal/bisect"
-	istrings "github.com/gregoo/go-prompt/internal/strings"
+	"github.com/tiborvass/go-prompt/internal/bisect"
+	istrings "github.com/tiborvass/go-prompt/internal/strings"
 	runewidth "github.com/mattn/go-runewidth"
 )
 

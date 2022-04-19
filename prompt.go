@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gregoo/go-prompt/internal/debug"
+	"github.com/tiborvass/go-prompt/internal/debug"
 )
 
 // Executor is called when user input something text.

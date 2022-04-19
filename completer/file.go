@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	prompt "github.com/gregoo/go-prompt"
-	"github.com/gregoo/go-prompt/internal/debug"
+	prompt "github.com/tiborvass/go-prompt"
+	"github.com/tiborvass/go-prompt/internal/debug"
 )
 
 var (

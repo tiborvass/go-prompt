@@ -3,7 +3,7 @@ package prompt
 import (
 	"runtime"
 
-	"github.com/gregoo/go-prompt/internal/debug"
+	"github.com/tiborvass/go-prompt/internal/debug"
 	runewidth "github.com/mattn/go-runewidth"
 )
 
